@@ -1,0 +1,12 @@
+{
+  "extends": ["next/core-web-vitals", "prettier"],
+  "rules": {
+    "no-console": ["error", { "allow": ["error"] }],
+    "import/first": "error",
+    "import/newline-after-import": "error",
+    "import/no-unresolved": "off",
+    "import/no-duplicates": "error",
+    "linebreak-style": [2],
+    "no-unused-vars": ["error", { "vars": "all", "args": "after-used", "ignoreRestSiblings": false }]
+  }
+}
